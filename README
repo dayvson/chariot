@@ -1,0 +1,11 @@
+Chariot
+
+The Chariot is a project to deliver the video url in our Global Content Delivery Network (GCDN)
+Select the best mirror for the user by his IP. Using MaxMind geolocation API and another internal database
+with ip's ranges and subnet mask from operators telecom. Using CASSANDRA as database
+
+#requirements
+Pycassa
+Py-YAML
+geoIP
+Flask
