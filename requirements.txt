@@ -1,5 +1,5 @@
 pycassa
-py-YAML
+pyYAML
 flask
 simplejson
 thrift
