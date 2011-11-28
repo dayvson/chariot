@@ -1,9 +1,7 @@
-Chariot
-
 # TheChariot
 ------------
 
-The Chariot is a project to deliver the video url in our Content Delivery Network (CDN)
+TheChariot is a project to deliver the video url in our Content Delivery Network (CDN)
 Select the best mirror for the user by his IP. Using MaxMind geolocation API and another internal database
 with ip's ranges and subnet mask from operators telecom. Using CASSANDRA as database
 
@@ -25,18 +23,20 @@ install the project:
 5. Create a virtual Python environment with TheChariot's dependencies
 6. Start up the webserver
 
-### Check out the latest Cassandra source code
-----------------------------------------------
-
-    git clone git://git.apache.org/cassandra.git
-
 ### Check out the TheChariot source code
 ----------------------------------------
 
-    git clone git://github.com/dayvson/thechariot.git
+    git clone git://github.com/dayvson/chariot.git
 
-### Install and configure Cassandra
------------------------------------
+### Linux :: Cassandra from Source
+
+#### Check out the latest Cassandra source code
+-----------------------------------------------
+
+    git clone git://git.apache.org/cassandra.git
+
+#### Install and configure Cassandra
+------------------------------------
 Now build Cassandra:
 
     cd cassandra
@@ -53,10 +53,10 @@ Finally we can start Cassandra:
 
     ./bin/cassandra -f
 
-### Install Thrift
-------------------
+### Windows :: Cassandra from Binaries
+--------------------------------------
 
-Follow the instructions [provided on the Thrift website itself](http://wiki.apache.org/thrift/ThriftInstallation)
+TBD
 
 ### Create a virtual Python environment with TheChariot's dependencies
 ----------------------------------------------------------------------
