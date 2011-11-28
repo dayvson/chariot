@@ -3,3 +3,4 @@ pyYAML
 flask
 simplejson
 thrift
+pygeoip
