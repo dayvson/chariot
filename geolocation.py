@@ -1,3 +1,5 @@
+import pygeoip
+
 class GeoLocation(object):
     def __init__(self, path_maxmind):
         self.geoip = pygeoip.GeoIP(path_maxmind)
