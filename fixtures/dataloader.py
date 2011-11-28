@@ -186,6 +186,6 @@ def initialize():
     create_multimedia_samples(1*factor)
     create_edgenode_samples(10*factor)
     create_samples_farm(1*factor)
-    create_samples_cdncountry()``
+    create_samples_cdncountry()
 if __name__ == '__main__':
     initialize()
