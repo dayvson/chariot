@@ -43,7 +43,7 @@ Now build Cassandra:
     ant
 
 Then we need to create our database directories on disk:
-
+ 
     sudo mkdir -p /var/log/cassandra
     sudo chown -R `whoami` /var/log/cassandra
     sudo mkdir -p /var/lib/cassandra
